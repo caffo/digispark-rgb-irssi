@@ -8,6 +8,6 @@ while read line ; do
         echo "$line" >> /dev/null
         if [ $? = 0 ]
         then
-         echo  "digit color"
+         ./digit purple
         fi
 done
