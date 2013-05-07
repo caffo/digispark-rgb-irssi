@@ -3,6 +3,8 @@
 import usb
 import sys
 import random
+import time
+
 sys.path.append("..")
 from arduino.usbdevice import ArduinoUsbDevice
 
@@ -15,4 +17,4 @@ if __name__ == "__main__":
         digispark.write(random.randint(0,255))
         digispark.write(random.randint(0,255))
         digispark.write(ord("e"))
-        time.sleep(2)
+        # time.sleep(2)
